@@ -1,7 +1,3 @@
-// const ulItemEl = document.querySelectorAll(".item");
-
-// console.log(`Number of categories: ${ulItemEl.length}`);
-
 const nameCategories = document.querySelector("#categories");
 const nameCategoriesItem = nameCategories.children;
 console.log(`Number of categories: ${nameCategoriesItem.length}`);
