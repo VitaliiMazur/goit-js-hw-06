@@ -7,7 +7,8 @@ function formEl(event) {
     elements: { email, password },
   } = event.currentTarget;
   if (email.value === "" || password.value === "") {
-    return console.log("Alert!!! Please fill in all the fields!");
+    alert("Please fill in all the fields!");
+    return;
   } else console.log(`Email: ${email.value}, Password: ${password.value}`);
   event.currentTarget.reset();
 }
